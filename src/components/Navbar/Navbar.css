@@ -1,0 +1,125 @@
+.nav-wrapper{
+    background :rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;   
+    width: 100%;
+}
+
+.nav-content{
+    /* background-color: aliceblue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin:0 auto;
+}
+.logo{
+    /* margin-left: 2rem; */
+    width:auto;
+    height: 8rem;
+}
+.nav-content ul{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style:none;
+    justify-content: space-around;
+    margin-right: 4rem;
+
+ }
+ .nav-content li{
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+ }
+ .menu-item{
+    font-weight: bold;
+    align-items: center;
+ }
+ /* .menu-item::before{
+    content :" ";
+    width: 2rem;
+    height: .2rem;
+    background: linear-gradient(90deg, #a993fe 0%, #8e61e7 100%);
+    border-radius: 0.5rem;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+ } */
+ /* .menu-item:hover::before{
+    width: 100%;
+    transform: translateX(0);
+    opacity:1;
+    cursor:progress;
+ } */
+ .menu-item:hover{
+    cursor:pointer;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+    /* text-decoration: line-through; */
+    color: #8e61e7;
+ }
+
+
+ .contact-btn{
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: aliceblue;
+    padding: 0.6rem 2rem;
+    border: 1.5px solid #8e61e7;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out;
+ }
+.contact-btn:hover{
+   cursor: pointer;
+   color: aliceblue;
+
+    background: linear-gradient(90deg ,#a993fe 0%, #8e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    
+    transition: all 0.8s ease;
+ }
+ .menu-btn{
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: .4rem;
+    color: white;
+    background-color: aqua;
+    /* background:linear-gradient(90deg,#a993fe 0%, #8e61e7 100%); */
+    line-height: 0;
+    cursor: pointer;
+    transition:all 0.4s ease;
+    display: none;
+    
+ }
+ .menu-btn:hover{
+    color:#8e61e7;
+    background: #0000;
+    border: 1px solid #a993fe;
+ }
+
+
+ @media (max-width: 769px) {
+    .nav-wrapper .menu-btn {
+        display: block;
+      
+    }
+    .nav-content ul {
+        display: none;
+    }
+   
+}
+@media (max-width: 1440) {
+    .menu-btn {
+        display: none;
+        background-color: rgb(187, 255, 0);
+    }
+}
