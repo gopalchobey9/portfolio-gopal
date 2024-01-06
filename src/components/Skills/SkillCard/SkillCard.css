@@ -2,4 +2,14 @@
     border-radius: 0.65rem;
     border :1.5px solid aqua;
     padding: 2.5rem;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    background: linear-gradient(rgb(31, 141, 149),rgb(38, 22, 22));
+}
+.skills-card:hover,
+.skills-card-active{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-1.5rem);
 }
