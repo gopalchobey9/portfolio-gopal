@@ -12,9 +12,8 @@ const App = () => {
    <div className='container'>
     <Hero/>
     <Skills/>
-    
-   </div>
    <ContactMe/>
+   </div>
    </>
   )
 }

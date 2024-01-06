@@ -1,0 +1,8 @@
+.form-container form >{
+    margin: 0 0 1rem 1rem;
+}
+.name-container{
+    margin: 0 0 1rem 1rem;
+    border: 1.5px solid aqua;
+    background:transparent;
+}
