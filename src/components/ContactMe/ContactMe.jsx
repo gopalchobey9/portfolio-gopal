@@ -24,5 +24,4 @@ const ContactMe = () => {
     </div>
   )
 }
-
 export default ContactMe

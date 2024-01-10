@@ -6,3 +6,29 @@
     border: 1.5px solid aqua;
     background:transparent;
 }
+
+.name-email-div{
+    display: flex;
+     flex-direction: row;
+     
+}
+.name-email-div >div{
+    margin: 10px;
+}
+.message{
+    text-align: center;
+    
+}
+.messgage-box{
+    border: 1.5px solid aqua;
+}
+.send-btn{
+    text-align: center;
+    
+
+}
+
+
+.sending-btn{
+    background: linear-gradient(rgb(56, 199, 199),rgb(162, 47, 182));
+}

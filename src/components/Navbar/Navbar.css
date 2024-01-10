@@ -36,6 +36,9 @@
  .menu-item{
     font-weight: bold;
     align-items: center;
+    color: white;
+    list-style: none;
+    text-decoration: none;
  }
  /* .menu-item::before{
     content :" ";
