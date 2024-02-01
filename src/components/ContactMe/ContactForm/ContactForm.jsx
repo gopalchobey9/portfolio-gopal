@@ -1,22 +1,3 @@
-// import React from 'react'
-// const ContactForm = () => {
-  //   return (
-    //     <div className='form-container'>
-//         <form>
-//             <div className='name-container'>
-//                 <input type="text" name='name' placeholder='name' />
-//             </div>
-//             <input type="text" name='email ' placeholder='email' />
-//             <textarea type="text" name='password' placeholder='password' rows={3}/>
-
-//             <button>SEND</button>
-//         </form>
-//     </div>
-//   )
-// }
-
-// export default ContactForm
-
 import React, { useState } from "react";
 import "./ContactForm.css"
 
